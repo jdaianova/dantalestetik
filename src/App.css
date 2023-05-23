@@ -5,7 +5,7 @@
 }
 
 .App {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid black; */
+  /* outline: 1px solid black; */
   padding: 30px 0;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
+  /* outline: 1px solid red; */
 }
 
 .App-header {
@@ -125,7 +125,6 @@
 
 .App-main {
   flex: 1;
-  align-items: start;
 }
 
 .App-main-container {
@@ -133,12 +132,14 @@
 }
 
 .Menu-buttons {
+  /* outline: 1px solid blue; */
+  padding-bottom: 0;
+}
+
+.Menu-buttons-container  {
   /* outline: 1px solid red; */
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 20px;
 }
 
 .Menu-button {

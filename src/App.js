@@ -28,32 +28,35 @@ function App() {
           </div>
 
         </div>
+        
       </header>
+
+      <div className="Menu-buttons External-container">
+      <div className="Menu-buttons-container Internal-container">
+        <div className="Menu-button"
+          Style="
+            Color: black;
+            background-color: #def2f1;">
+          Hlavni
+        </div>
+
+        <div className="Menu-button">
+          Adresa
+        </div>
+
+        <div className="Menu-button">
+          služby
+        </div>
+
+        <div className="Menu-button">
+          dotaz
+        </div>
+
+      </div>
+      </div>
 
       <main className="App-main External-container">
         <div className="App-main-container Internal-container">
-
-          <div className="Menu-buttons">
-            <div className="Menu-button"
-              Style="
-            Color: black;
-            background-color: #def2f1;">
-              Hlavni
-            </div>
-
-            <div className="Menu-button">
-              Adresa
-            </div>
-
-            <div className="Menu-button">
-              služby
-            </div>
-
-            <div className="Menu-button">
-              dotaz
-            </div>
-
-          </div>
 
           <div className="Main-part">
             <Hlavni />
