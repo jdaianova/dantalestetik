@@ -1,80 +1,29 @@
 import './App.css';
-import aura from './aura_green.png';
-import teeth from './teeth_green.png';
-import Hlavni from './Hlavni';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Hlavni from './components/Hlavni/Hlavni';
+import Menu from './components/Menu/Menu';
+import Adresa from './components/Adresa/Adresa';
+import Sluzby from './components/Sluzby/Sluzby';
+import Dotazy from './components/Dotazy/Dotazy';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header External-container">
-        <div className="App-header-container Internal-container ">
-
-          <div className="Logo">
-            <img src={aura} className="Logo-aura" alt="aura" />
-            <img src={teeth} className="Logo-teeth" alt="teeth" />
-          </div>
-
-          <div className="Logo-info">
-
-            <div className="Logo-info-first-row">
-              <h2>Dental Estetik</h2>
-              <p>s.r.o.</p>
-            </div>
-
-            <div className="Logo-info-second-row">
-              <h5>725 439 518</h5>
-              <h5>dentalestetik.cz</h5>
-            </div>
-          </div>
-
-        </div>
-        
-      </header>
-
-      <div className="Menu-buttons External-container">
-      <div className="Menu-buttons-container Internal-container">
-        <div className="Menu-button"
-          Style="
-            Color: black;
-            background-color: #def2f1;">
-          Hlavni
-        </div>
-
-        <div className="Menu-button">
-          Adresa
-        </div>
-
-        <div className="Menu-button">
-          služby
-        </div>
-
-        <div className="Menu-button">
-          dotaz
-        </div>
-
-      </div>
-      </div>
-
-      <main className="App-main External-container">
-        <div className="App-main-container Internal-container">
-
-          <div className="Main-part">
-            <Hlavni />
-          </div>
-
-        </div>
-      </main>
-
-      <footer className="App-footer External-container">
-        <div className="App-footer-container Internal-container ">
-
-          <div className="">
-            <h5>Telefonická objednávka: 725 439 518</h5>
-          </div>
-
-        </div>
-      </footer>
-
+      <Header />
+      <Router>
+        <Menu />
+        <main className="App-main">
+          <Routes>
+            <Route path='/' element={<Hlavni />} />
+            <Route path='/adresa' element={<Adresa />} />
+            <Route path='/sluzby' element={<Sluzby />} />
+            <Route path='/dotazy' element={<Dotazy />} />
+          </Routes>
+        </main>
+      </Router>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,93 @@
+.App-header {
+  width: 100%;
+  border-top: 10px solid #def2f1;
+  -webkit-box-shadow: 0px -7px 19px 6px r#3aafa9;
+  -moz-box-shadow: 0px -7px 19px 6px #3aafa9;
+  box-shadow: 0px -7px 10px 2px #3aafa9;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header-content {
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.Logo {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.Logo-aura {
+  height: 50px;
+  width: 52px;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Logo-aura {
+    animation: Logo-aura-spin infinite 10s linear;
+  }
+}
+
+.Logo-teeth {
+  height: 26px;
+  width: 24px;
+  pointer-events: none;
+  position: absolute;
+  left: 15px;
+  top: 12px;
+}
+
+@keyframes Logo-aura-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Logo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+  margin-left: 10px;
+  border-left: 1px solid #3aafa9;
+  padding-left: 10px;
+}
+
+.Logo-info-first-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logo-info-first-row h2 {
+  font-size: 32px;
+  color: #2b7a78;
+}
+
+.Logo-info-first-row p {
+  margin-left: 3px;
+  margin-top: 20px;
+  font-size: 10px;
+  color: #3aafa9;
+}
+
+.Logo-info-second-row {
+  width: 100%;
+  color: #17252a;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

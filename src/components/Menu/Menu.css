@@ -1,0 +1,39 @@
+li {
+    list-style: none;
+}
+
+.Menu-buttons {
+    /* background-color: rgb(213, 220, 147); */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 0 0;
+}
+
+.Menu-button {
+    text-align: center;
+    background-color: #3aafa9;
+    padding: 10px 14px;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.Menu-button-link {
+    text-decoration: none;
+    color: white;
+}
+
+.Menu-button:hover {
+    background-color: #2b7a78;
+    transition: 0.5s linear;
+}
+
+.Menu-button:hover,
+.Active {
+    color: black;
+}
