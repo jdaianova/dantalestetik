@@ -1,12 +1,13 @@
 .Hlavni {
-  /* outline: 1px solid red; */
+  width: 100%;
+  /* background-color: aqua; */
   padding: 25px;
+  overflow-y: scroll;
 }
 
 .Slogan {
   text-align: center;
-  padding-top: 0px;
-  position: relative;
+    /* background-color: aqua; */
 }
 
 /* stomatologická péče */
@@ -24,76 +25,75 @@
 
 /* Zubní ordinace v Kuřimi */
 .Slogan h6 {
-  margin: 10px 0;
   font-size: 27px;
   color: #2b7a78;
+  line-height: 1.5em;
   /* outline: 1px solid green; */
 }
 
-.Slogan::after {
-  content: '';
-  outline: 3px solid #def2f1;
-  width: 3000px;
-  height: 80px;
-  background-color: #def2f1;
-  position: absolute;
-  top: 135px;
-  left: -500px;
-  z-index: -999;
-}
-
 .Main-Photo {
-  width: 170px;
-  margin-top: 5px;
+  width: 130px;
 }
 
 .Doctor-info {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
   padding-left: 10px;
   /* outline: 1px solid red; */
+  position: relative;
+}
+
+.Doctor-info::after {
+  content: '';
+  width: 375px;
+  height: 80px;
+  background-color: #def2f1;
+  position: absolute;
+  top: 20px;
+  left: -25px;
+  z-index: -999;
 }
 
 .Doctor-info-name {
   display: flex;
   flex-direction: column;
   align-items: start;
+  padding-bottom: 7px;
   /* outline: 1px solid red; */
 }
 
 /* Anastasiia */
 .Doctor-info-name h3 {
-  font-size: 28px;
+  font-size: 34px;
   /* outline: 1px solid blue; */
 }
 
 /* Neuimina */
 .Doctor-info-name h4 {
-  font-size: 32px;
+  font-size: 36px;
   line-height: 1em;
   /* outline: 1px solid yellow; */
 }
 
 /* Lékař stomatolog */
 .Doctor-info-name h5 {
-  font-size: 17.5px;
-  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 5px;
   color: #2b7a78;
   /* outline: 1px solid red; */
 }
 
 .Info {
   text-align: center;
-  padding: 15px 0;
   /* outline: 1px solid red;  */
 }
 
 /* Provádíme bezbolestné */
 .Info-first {
-  margin-bottom: 15px;
-  margin-top: 0px;
+  margin-bottom: 5px;
   color: #3aafa9;
   font-size: 19.5px;
 }

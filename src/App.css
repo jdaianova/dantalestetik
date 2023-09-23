@@ -5,6 +5,7 @@
 }
 
 .App {
+  width: 375px;
   height: 95vh;
   display: flex;
   align-items: center;
@@ -19,9 +20,4 @@
   display: flex;
   justify-content: center;
   flex: 1;
-  overflow-y: scroll;
-}
-
-.App-main-container {
-  flex-direction: column;
 }
