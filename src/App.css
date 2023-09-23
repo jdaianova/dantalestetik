@@ -5,7 +5,7 @@
 }
 
 .App {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   flex: 1;
+  overflow-y: scroll;
 }
 
 .App-main-container {
