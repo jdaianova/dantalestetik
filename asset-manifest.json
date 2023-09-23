@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/dentalestetik/static/css/main.a4690b49.css",
-    "main.js": "/dentalestetik/static/js/main.e5cc746c.js",
-    "static/js/787.e5a79ef4.chunk.js": "/dentalestetik/static/js/787.e5a79ef4.chunk.js",
-    "static/media/woman.png": "/dentalestetik/static/media/woman.5aa3493b776e82b64bf6.png",
+    "main.css": "/dentalestetik/static/css/main.36884929.css",
+    "main.js": "/dentalestetik/static/js/main.5a50181e.js",
+    "static/media/main-heart.png": "/dentalestetik/static/media/main-heart.62e9d070bc7d09030c0f.png",
     "static/media/teeth_green.png": "/dentalestetik/static/media/teeth_green.aa9895dde1c9bbfbedbc.png",
     "index.html": "/dentalestetik/index.html",
-    "main.a4690b49.css.map": "/dentalestetik/static/css/main.a4690b49.css.map",
-    "main.e5cc746c.js.map": "/dentalestetik/static/js/main.e5cc746c.js.map",
-    "787.e5a79ef4.chunk.js.map": "/dentalestetik/static/js/787.e5a79ef4.chunk.js.map"
+    "main.36884929.css.map": "/dentalestetik/static/css/main.36884929.css.map",
+    "main.5a50181e.js.map": "/dentalestetik/static/js/main.5a50181e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4690b49.css",
-    "static/js/main.e5cc746c.js"
+    "static/css/main.36884929.css",
+    "static/js/main.5a50181e.js"
   ]
 }
