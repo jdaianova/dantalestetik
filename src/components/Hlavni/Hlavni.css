@@ -7,7 +7,7 @@
 
 .Slogan {
   text-align: center;
-    /* background-color: aqua; */
+  /* background-color: aqua; */
 }
 
 /* stomatologická péče */
@@ -25,9 +25,12 @@
 
 /* Zubní ordinace v Kuřimi */
 .Slogan h6 {
-  font-size: 27px;
+  font-size: 25.5px;
   color: #2b7a78;
   line-height: 1.5em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /* outline: 1px solid green; */
 }
 
@@ -48,7 +51,7 @@
 
 .Doctor-info::after {
   content: '';
-  width: 375px;
+  width: 300px;
   height: 80px;
   background-color: #def2f1;
   position: absolute;
@@ -93,7 +96,8 @@
 
 /* Provádíme bezbolestné */
 .Info-first {
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   color: #3aafa9;
   font-size: 19.5px;
 }

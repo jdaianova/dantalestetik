@@ -8,7 +8,7 @@ function Menu() {
   }
 
   return (
-    <nav>
+    <nav >
       <ul className="Menu-buttons">
         <li className="Menu-button">
           <NavLink className={stateClassName} to="/" >hlavni</NavLink>
