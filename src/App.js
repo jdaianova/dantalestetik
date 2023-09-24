@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Router basename='/'>
+      <Router basename={process.env.PUBLIC_URL}>
         <Menu />
         <main className="App-main">
           <Routes>
