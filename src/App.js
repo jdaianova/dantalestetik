@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HashRouter >
+      <HashRouter basename='/dentalestetik'>
         <Menu />
         <main className="App-main">
           <Routes>
