@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dentalestetik/static/css/main.4c371692.css",
-    "main.js": "/dentalestetik/static/js/main.5a50181e.js",
+    "main.js": "/dentalestetik/static/js/main.72f3ad3f.js",
     "static/media/main-heart.png": "/dentalestetik/static/media/main-heart.62e9d070bc7d09030c0f.png",
     "static/media/teeth_green.png": "/dentalestetik/static/media/teeth_green.aa9895dde1c9bbfbedbc.png",
     "index.html": "/dentalestetik/index.html",
     "main.4c371692.css.map": "/dentalestetik/static/css/main.4c371692.css.map",
-    "main.5a50181e.js.map": "/dentalestetik/static/js/main.5a50181e.js.map"
+    "main.72f3ad3f.js.map": "/dentalestetik/static/js/main.72f3ad3f.js.map"
   },
   "entrypoints": [
     "static/css/main.4c371692.css",
-    "static/js/main.5a50181e.js"
+    "static/js/main.72f3ad3f.js"
   ]
 }
