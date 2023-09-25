@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hlavni from './components/Hlavni/Hlavni';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter >
         <Menu />
         <main className="App-main">
           <Routes>
@@ -22,7 +22,7 @@ function App() {
             <Route path='/dotazy' element={<Dotazy />} />
           </Routes>
         </main>
-      </Router>
+      </HashRouter>
       <Footer />
     </div>
   );

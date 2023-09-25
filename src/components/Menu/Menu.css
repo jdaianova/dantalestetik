@@ -28,12 +28,11 @@ li {
     color: white;
 }
 
-.Menu-button:hover {
+/* .Menu-button:hover {
     background-color: #2b7a78;
     transition: 0.5s linear;
-}
+} */
 
-.Menu-button:hover,
 .Active {
     color: black;
 }
