@@ -16,7 +16,8 @@ function App() {
         <Menu />
         <main className="App-main">
           <Routes>
-            <Route path='/' element={<Hlavni />} />
+          <Route path='/' element={<Hlavni />} />
+            <Route path='/dentalestetik' element={<Hlavni />} />
             <Route path='/adresa' element={<Adresa />} />
             <Route path='/sluzby' element={<Sluzby />} />
             <Route path='/dotazy' element={<Dotazy />} />
